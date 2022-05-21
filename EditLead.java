@@ -23,8 +23,9 @@ public class EditLead {
 		 driver.findElement(By.linkText("Leads")).click();
 		 driver.findElement(By.linkText("Create Lead")).click();
 		 driver.findElement(By.id("createLeadForm_companyName")).sendKeys("Dedalus");
-		 driver.findElement(By.id("createLeadForm_firstName")).sendKeys("Vino");
+		 driver.findElement(By.id("createLeadForm_firstName")).sendKeys("Vinod");
 		 driver.findElement(By.id("createLeadForm_lastName")).sendKeys("Chan");
+		 driver.findElement(By.id("createLeadForm_firstNameLocal")).sendKeys("vin");
 		 driver.findElement(By.id("createLeadForm_departmentName")).sendKeys("Testing");
 		 driver.findElement(By.name("description")).sendKeys("Create Lead");
 		 driver.findElement(By.id("createLeadForm_primaryEmail")).sendKeys("vinodhinichandrakasan@gmail.com");
